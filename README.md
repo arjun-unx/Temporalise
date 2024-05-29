@@ -1,1 +1,3 @@
-"# Temporalise" 
+# Temporalise - END-TO-END SENTENCE-LEVEL LIPREADING
+
+Temporalize is a model that translates a sequence of video frames of varying lengths into text. It incorporates spatiotemporal convolutions, a recurrent neural network, and connectionist temporal classification loss, all trained as a cohesive unit. To our knowledge, Temporalize is the first end-to-end model capable of interpreting entire sentences from visual speech cues, learning both time-based visual features and the sequence model simultaneously. On the GRID dataset, Temporalize achieves 95.2% accuracy in a task involving sentence-level lipreading with overlapping speakers, surpassing the performance of experienced human lipreaders.
